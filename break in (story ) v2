@@ -1,0 +1,200 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local GUI = Instance.new("ScreenGui")
+local OpenGui = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local COP = Instance.new("TextButton")
+local SWAT = Instance.new("TextButton")
+local Fighter = Instance.new("TextButton")
+local Gamepass = Instance.new("TextLabel")
+local LockedCHarchters = Instance.new("TextLabel")
+local GUEST666 = Instance.new("TextButton")
+local HYPER = Instance.new("TextButton")
+local Credit = Instance.new("TextLabel")
+local CloseGui = Instance.new("TextButton")
+local Gamename = Instance.new("TextLabel")
+
+--Properties:
+
+GUI.Name = "GUI"
+GUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+GUI.ResetOnSpawn = false
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = GUI
+OpenGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+OpenGui.Position = UDim2.new(0, 0, 0.483815432, 0)
+OpenGui.Size = UDim2.new(0, 91, 0, 56)
+OpenGui.Font = Enum.Font.SourceSans
+OpenGui.Text = "Open Gui"
+OpenGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenGui.TextScaled = true
+OpenGui.TextSize = 14.000
+OpenGui.TextWrapped = true
+OpenGui.Active = true
+OpenGui.Draggable = true
+
+Frame.Parent = GUI
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.48593244, 0, 0.204889819, 0)
+Frame.Size = UDim2.new(0, 531, 0, 379)
+
+COP.Name = "COP"
+COP.Parent = Frame
+COP.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+COP.Position = UDim2.new(0, 0, 0.221982121, 0)
+COP.Size = UDim2.new(0, 203, 0, 48)
+COP.Font = Enum.Font.SourceSans
+COP.Text = "COP"
+COP.TextColor3 = Color3.fromRGB(0, 0, 0)
+COP.TextScaled = true
+COP.TextSize = 14.000
+COP.TextWrapped = true
+COP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Dg4ycbwJ"))()
+end)
+
+SWAT.Name = "SWAT"
+SWAT.Parent = Frame
+SWAT.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SWAT.Position = UDim2.new(0.383718848, 0, 0.218588457, 0)
+SWAT.Size = UDim2.new(0, 179, 0, 50)
+SWAT.Font = Enum.Font.SourceSans
+SWAT.Text = "SWAT"
+SWAT.TextColor3 = Color3.fromRGB(0, 0, 0)
+SWAT.TextScaled = true
+SWAT.TextSize = 14.000
+SWAT.TextWrapped = true
+SWAT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Mh7RiWNX"))()
+end)
+
+Fighter.Name = "Fighter"
+Fighter.Parent = Frame
+Fighter.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Fighter.Position = UDim2.new(0.721865952, 0, 0.220797718, 0)
+Fighter.Size = UDim2.new(0, 147, 0, 50)
+Fighter.Font = Enum.Font.SourceSans
+Fighter.Text = "The Fighter"
+Fighter.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fighter.TextScaled = true
+Fighter.TextSize = 14.000
+Fighter.TextWrapped = true
+Fighter.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/1Jr8WDUk"))()
+end)
+
+Gamepass.Name = "Gamepass"
+Gamepass.Parent = Frame
+Gamepass.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Gamepass.Size = UDim2.new(0, 484, 0, 84)
+Gamepass.Font = Enum.Font.SourceSans
+Gamepass.Text = "GAMEPASSES"
+Gamepass.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gamepass.TextScaled = true
+Gamepass.TextSize = 14.000
+Gamepass.TextWrapped = true
+
+LockedCHarchters.Name = "Locked CHarchters"
+LockedCHarchters.Parent = Frame
+LockedCHarchters.BackgroundColor3 = Color3.fromRGB(43, 0, 255)
+LockedCHarchters.Position = UDim2.new(0, 0, 0.352665812, 0)
+LockedCHarchters.Size = UDim2.new(0, 530, 0, 94)
+LockedCHarchters.Font = Enum.Font.SourceSans
+LockedCHarchters.Text = "Locked Charchters"
+LockedCHarchters.TextColor3 = Color3.fromRGB(0, 0, 0)
+LockedCHarchters.TextScaled = true
+LockedCHarchters.TextSize = 14.000
+LockedCHarchters.TextWrapped = true
+
+GUEST666.Name = "GUEST666"
+GUEST666.Parent = Frame
+GUEST666.BackgroundColor3 = Color3.fromRGB(43, 0, 255)
+GUEST666.Position = UDim2.new(0, 0, 0.602971077, 0)
+GUEST666.Size = UDim2.new(0, 200, 0, 50)
+GUEST666.Font = Enum.Font.SourceSans
+GUEST666.Text = "Guest666"
+GUEST666.TextColor3 = Color3.fromRGB(0, 0, 0)
+GUEST666.TextScaled = true
+GUEST666.TextSize = 14.000
+GUEST666.TextWrapped = true
+GUEST666.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/tnyjPCTz"))()
+end)
+
+HYPER.Name = "HYPER"
+HYPER.Parent = Frame
+HYPER.BackgroundColor3 = Color3.fromRGB(43, 0, 255)
+HYPER.Position = UDim2.new(0.382297546, 0, 0.600529075, 0)
+HYPER.Size = UDim2.new(0, 200, 0, 50)
+HYPER.Font = Enum.Font.SourceSans
+HYPER.Text = "HYPER"
+HYPER.TextColor3 = Color3.fromRGB(0, 0, 0)
+HYPER.TextScaled = true
+HYPER.TextSize = 14.000
+HYPER.TextWrapped = true
+HYPER.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ry5X7XVz"))()
+end)
+
+Credit.Name = "Credit"
+Credit.Parent = Frame
+Credit.BackgroundColor3 = Color3.fromRGB(43, 0, 255)
+Credit.Position = UDim2.new(0, 0, 0.735246181, 0)
+Credit.Size = UDim2.new(0, 530, 0, 100)
+Credit.Font = Enum.Font.SourceSans
+Credit.Text = "Credit: Pmn Team"
+Credit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credit.TextScaled = true
+Credit.TextSize = 14.000
+Credit.TextWrapped = true
+
+CloseGui.Name = "CloseGui"
+CloseGui.Parent = Frame
+CloseGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseGui.Position = UDim2.new(0.911487758, 0, -4.03671656e-08, 0)
+CloseGui.Size = UDim2.new(0, 47, 0, 82)
+CloseGui.Font = Enum.Font.SourceSans
+CloseGui.Text = "X"
+CloseGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseGui.TextScaled = true
+CloseGui.TextSize = 14.000
+CloseGui.TextWrapped = true
+
+Gamename.Name = "Game name"
+Gamename.Parent = Frame
+Gamename.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Gamename.Position = UDim2.new(0, 0, -0.129287601, 0)
+Gamename.Size = UDim2.new(0, 531, 0, 49)
+Gamename.Font = Enum.Font.SourceSans
+Gamename.Text = "BREAK IN (STORY) LOBBY"
+Gamename.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gamename.TextScaled = true
+Gamename.TextSize = 14.000
+Gamename.TextWrapped = true
+
+-- Scripts:
+
+local function GLLH_fake_script() -- OpenGui.LocalScript 
+	local script = Instance.new('LocalScript', OpenGui)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.GUI.Frame.Visible = true
+	end)
+end
+coroutine.wrap(GLLH_fake_script)()
+local function XWZEQP_fake_script() -- CloseGui.LocalScript 
+	local script = Instance.new('LocalScript', CloseGui)
+
+	local player = game.Players.LocalPlayer
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.PlayerGui.GUI.Frame.Visible = false
+	end)
+end
+coroutine.wrap(XWZEQP_fake_script)()
